@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# @author nico-mu
+# @email nico.muszalczyk@gmail.com
+# @create date 12-02-2021 10:37:07
+# @modify date 12-02-2021 10:37:07
+# @desc updates all python packages on given system
+
 import os
 import pkg_resources
 from argparse import ArgumentParser
