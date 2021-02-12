@@ -19,6 +19,7 @@ if args.log:
     f = open('log.txt', 'w')
 else:
 	f = True
+    
 packages = [dist.project_name for dist in pkg_resources.working_set]
 
 for index in tqdm(range(len(packages))):
